@@ -1,18 +1,16 @@
 # Advanced Data Transformation in SQL Workshop (WIP)
 
-Open in GitHub Codespaces
+## Prerequisites
 
-First setup duckdb and TPCH tables with this command on the terminal.
+1. Go through [SQL Cheatsheet](./sql_cheatsheet.pdf)
 
-```bash
-./setup.sh
-```
+## Setup
 
-Now you can open up duck db with the tpch tables as:
+1. Create [Github codespaces with this link](https://github.com/codespaces/new?skip_quickstart=true&machine=basicLinux32gb&repo=833339774&ref=main&geo=UsEast).
+2. Run `./setup.sh` in the terminal.
+3. Open duckdb sql ide with `./duckdb tpch.db`.
 
-```bash
-./duckdb tpch.db
-```
+Now you can run queries as shown below:
 
 ```sql
 select * from customer limit 4;
@@ -20,6 +18,12 @@ select * from customer limit 4;
 ```
 
 ## Data Model
+
+The TPC-H data represents a car parts seller’s data warehouse, where we record orders, items that make up that order (lineitem), supplier, customer, part (parts sold), region, nation, and partsupp (parts supplier). 
+
+Note: Have a copy of the data model as you follow along; this will help in understanding the examples provided and in answering exercise questions.
+
+![](./tpch_erd.png)
 
 ## Run SQL Scripts
 
