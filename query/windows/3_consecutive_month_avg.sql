@@ -1,0 +1,1 @@
+-- NOTE: Find the 3 month running average for month m and user u, note that this should only include consecutive months.
