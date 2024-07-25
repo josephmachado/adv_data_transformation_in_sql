@@ -1,10 +1,10 @@
--- * Exercise: Create a SQL query that gives me the following columns:
---
--- 1. ordermonth (in YYYY-MM format)
--- 2. Revenue: Sum of totalprice for that month
--- 3. revenue_MOM_change: The current month's revenue - previous month's revenue
---
 
+/**
+* Write a query on the `orders` table that has the following output:
+	1. ordermonth (in YYYY-MM format)
+	2. Revenue: Sum of totalprice for that month
+	3. revenue_MOM_change: The current month's revenue - the previous month's revenue
+**/
 SELECT order_month,
        revenue,
        revenue - lag(revenue) OVER (

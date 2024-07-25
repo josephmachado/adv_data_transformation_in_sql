@@ -1,4 +1,9 @@
--- NOTE: Find the 3 month running average for month m and user u, note that this should only include consecutive months.
+/**
+
+* Write a query on the `orders` table that has the following output:
+	1. order_month, o_custkey, total_price, three_mo_total_price_avg
+	2. consecutive_three_mo_total_price_avg: The consecutive 3 month average of total_price for that customer. Note that this should only include months that are chronologically next to each other.
+**/
 
 SELECT order_month,
        o_custkey,

@@ -1,4 +1,5 @@
--- NOTE: Let's look at a simple window function that **gets the 3 top spending customer per month**
+
+-- * Let's look at a simple window function that **gets the 3 top spending customer IDs per day** (aka rank rows based on a value)
 
 SELECT *
 FROM

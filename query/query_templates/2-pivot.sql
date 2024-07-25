@@ -1,4 +1,4 @@
--- Create a pivot of order_month as rows, o_orderpriority as columns, and o_totalprice as value
+-- Convert `orderpriority` column values into individual columns and calculate monthly revenue.
 
 SELECT strftime(o_orderdate, '%Y-%m') AS ordermonth,
        ROUND(AVG(CASE
@@ -24,10 +24,14 @@ SELECT strftime(o_orderdate, '%Y-%m') AS ordermonth,
 FROM orders
 GROUP BY strftime(o_orderdate, '%Y-%m');
 
--- Using DuckDBs PIVOT function
+-- Some DBs support PIVOT statements.
+
+-- Using the DuckDB PIVOT function
 PIVOT
   (SELECT *,
           strftime(o_orderdate, '%Y-%m') AS order_month
    FROM orders) ON o_orderpriority USING AVG(o_totalprice)
 GROUP BY order_month
 LIMIT 10;
+
+

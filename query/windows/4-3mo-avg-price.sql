@@ -1,9 +1,9 @@
 
 -- * Write a query on the `orders` table that has the following output:
 -- 	1. o_custkey
--- 	2. order_month: Use YYYY-MM format 
+-- 	2. order_month: In YYYY-MM format, use `strftime(o_orderdate, '%Y-%m') AS order_month` 
 -- 	3. total_price: Sum of o_totalprice for that month
--- 	4. three_mo_total_price_avg: The 3 month (previous, current & next) average of total_price for that customer and order_month
+-- 	4. three_mo_total_price_avg: The 3 month (previous, current & next) average of total_price for that customer
 
 SELECT order_month,
        o_custkey,
