@@ -1,4 +1,11 @@
-# Advanced Data Transformation in SQL Workshop (WIP)
+
+* [Advanced Data Transformation in SQL Workshop](#advanced-data-transformation-in-sql-workshop)
+    * [Prerequisites](#prerequisites)
+    * [Setup](#setup)
+    * [Data Model](#data-model)
+    * [Run SQL Scripts](#run-sql-scripts)
+
+# Advanced Data Transformation in SQL Workshop
 
 ## Prerequisites
 
