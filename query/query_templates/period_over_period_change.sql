@@ -5,7 +5,6 @@
 -- 3. revenue_MOM_change: The current month's revenue - previous month's revenue
 --
 
-
 SELECT order_month,
        revenue,
        revenue - lag(revenue) OVER (
