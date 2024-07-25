@@ -21,3 +21,10 @@ select * from customer limit 4;
 
 ## Data Model
 
+## Run SQL Scripts
+
+You can run the SQL scripts in the [./query](./query) folder. See the example below:
+
+```bash
+./duckdb tpch.db < ./query/windows/top_3_monthly_customers.sql
+```
