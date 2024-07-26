@@ -9,7 +9,8 @@
 
 ## Prerequisites
 
-1. Go through [SQL Cheatsheet](./sql_cheatsheet.pdf)
+1. Sign up for a Github account
+2. Go through [SQL workbook](./sql_workbook.pdf)
 
 ## Setup
 
