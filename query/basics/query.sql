@@ -49,12 +49,12 @@ SELECT * FROM orders ORDER BY o_custkey LIMIT 10;
 SELECT * FROM orders ORDER BY o_custkey DESC LIMIT 10; 
 
 -- not based on real tables
-SELECT
-    a.*
-FROM
-    table_a a -- LEFT table a
-    JOIN table_b b -- RIGHT table b
-    ON a.id = b.id
+-- SELECT
+--     a.*
+-- FROM
+--     table_a a -- LEFT table a
+--     JOIN table_b b -- RIGHT table b
+--     ON a.id = b.id
 
 SELECT
     o.o_orderkey,
