@@ -26,7 +26,7 @@ Steps:
 1. Create [Github codespaces with this link](https://github.com/codespaces/new?skip_quickstart=true&machine=basicLinux32gb&repo=833339774&ref=main&geo=UsEast).
 2. Wait for Github to install the [requirements.txt](./requirements.txt). This step can take about 5minutes.
         ![installation](./images/inst.png)
-3. Now open the `0-basics.ipynb` (or any ipynb) and it will open in a Jupyter notebook interface. You will be asked for your kernel choice, choose `python environment` and then `python3.10`.
+3. Now open the `0-basics.ipynb` (or any ipynb) and it will open in a Jupyter notebook interface. You will be asked for your kernel choice, choose `Python Environments` and then `python3.10.13 Global`.
 
 ### Option 2: Run locally
 
