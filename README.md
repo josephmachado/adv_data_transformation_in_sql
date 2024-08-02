@@ -18,6 +18,11 @@
 2. Run `./setup.sh` in the terminal.
 3. Open duckdb sql ide with `./duckdb tpch.db`.
 
+```bash
+./setup.sh
+jupyter lab
+```
+
 Now you can run queries as shown below:
 
 ```sql
