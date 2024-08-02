@@ -13,7 +13,7 @@
 ## Prerequisites
 
 1. Sign up for a Github account
-2. Go through [SQL basics workbook](./0-basics.pdf)
+2. Go through the [0-basics](./0-basics.ipynb) notebook exercises
 
 ## Setup
 
