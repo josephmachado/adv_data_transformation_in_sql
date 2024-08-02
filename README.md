@@ -49,7 +49,7 @@ jupyter lab
 
 ## Start here
 
-Run the jupyter notebook [0-basics.ipynb](./0-basics.ipynb) to get started.
+Complete the **[0-basics](./0-basics.ipynb)** notebook as prerequisite.
 
 ## Data Model
 
