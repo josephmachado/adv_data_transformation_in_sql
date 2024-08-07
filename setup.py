@@ -1,9 +1,13 @@
 
 import duckdb
 import os
+from pathlib import Path
 
 print('Remove existing tpch.db file')
-db_path = './tpch.db'
+# Get the current working directory
+cwd = Path(__file__).resolve().parent
+
+db_path = str(cwd / 'tpch.db')
 # Remove the file if it exists
 if os.path.exists(db_path):
     os.remove(db_path)
@@ -14,7 +18,7 @@ con = duckdb.connect(database=db_path)
 
 # Read the create_tables.sql script
 print('Reading in the table creation script')
-with open('./create_tables.sql', 'r') as file:
+with open(str(cwd / 'create_tables.sql'), 'r') as file:
     create_tables_sql = file.read()
 
 print('Executing table creation')
