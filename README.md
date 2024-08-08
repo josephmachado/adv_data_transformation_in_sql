@@ -1,14 +1,19 @@
 
 
 * [Advanced Data Transformation in SQL Workshop](#advanced-data-transformation-in-sql-workshop)
+    * [Live virtual workshop](#live-virtual-workshop)
     * [Prerequisites](#prerequisites)
     * [Setup](#setup)
         * [Option 1: Github codespaces (Recommended)](#option-1-github-codespaces-recommended)
         * [Option 2: Run locally](#option-2-run-locally)
-    * [Start here](#start-here)
     * [Data Model](#data-model)
+    * [Topics covered in the workshop](#topics-covered-in-the-workshop)
 
 # Advanced Data Transformation in SQL Workshop
+
+## Live virtual workshop
+
+The workshop will be streamed on YouTube live: [Advanced Data Processing in SQL YouTub Live](https://youtube.com/live/fB4XHC6ZaCs). Post stream, it will be available to watch and follow at your own pace.
 
 ## Prerequisites
 
