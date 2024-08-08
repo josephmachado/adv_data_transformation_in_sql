@@ -12,8 +12,8 @@
 
 ## Prerequisites
 
-1. Sign up for a Github account
-2. Go through the **[0-basics](./0-basics.ipynb)** notebook exercises
+1. Sign up for a Github account.
+2. Go through the [Setup](#setup) process and complete the **[0-basics](./0-basics.ipynb)** notebook exercises.
 
 ## Setup
 
@@ -48,10 +48,6 @@ pip install -r requirements.txt
 jupyter lab
 ```
 
-## Start here
-
-Complete the **[0-basics](./0-basics.ipynb)** notebook as prerequisite.
-
 ## Data Model
 
 The TPC-H data represents a car parts seller’s data warehouse, where we record orders, items that make up that order (lineitem), supplier, customer, part (parts sold), region, nation, and partsupp (parts supplier). 
@@ -60,3 +56,8 @@ Note: Have a copy of the data model as you follow along; this will help in under
 
 ![](./tpch_erd.png)
 
+## Topics covered in the workshop
+
+1. [Window functions](./concepts/windows/)
+2. [CTEs](./concepts/CTE/)
+3. [Common query templates for common data processing problems](./concepts/query_templates/)
