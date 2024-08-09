@@ -33,16 +33,18 @@ Steps:
         ![installation](./images/inst.png)
 3. Now open the `0-basics.ipynb` (or any ipynb) and it will open in a Jupyter notebook interface. You will be asked for your kernel choice, choose `Python Environments` and then `python3.10.13 Global`.
         ![Jupyter notebook in VScode](./images/vsjupy.png)
-4. Complete the **[0-basics](./0-basics.ipynb)** notebook as prerequisite.
+4. In the terminal run `python setup.py` to create the tables and data necessary for the exercises.
+5. Complete the **[0-basics](./0-basics.ipynb)** notebook as prerequisite.
 
 ### Option 2: Run locally
 
 Steps:
 
-1. Clone this repo, cd into the cloned repo.
+1. Clone this repo, cd into the cloned repo
 2. Start a virtual env and install requirements.
 3. Start Jupyter lab and run the `ipynb` notebooks.
-4. Complete the **[0-basics](./0-basics.ipynb)** notebook as prerequisite.
+4. In the terminal run `python setup.py` to create the tables and data necessary for the exercises.
+5. Complete the **[0-basics](./0-basics.ipynb)** notebook as prerequisite.
 
 ```bash
 git clone https://github.com/josephmachado/adv_data_transformation_in_sql.git
@@ -50,6 +52,7 @@ cd adv_data_transformation_in_sql
 python -m venv ./env # create a virtual env
 source env/bin/activate # use virtual environment
 pip install -r requirements.txt
+python setup.py
 jupyter lab
 ```
 
