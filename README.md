@@ -1,5 +1,4 @@
 
-
 * [Advanced Data Transformation in SQL Workshop](#advanced-data-transformation-in-sql-workshop)
     * [Live virtual workshop](#live-virtual-workshop)
     * [Prerequisites](#prerequisites)
@@ -8,6 +7,7 @@
         * [Option 2: Run locally](#option-2-run-locally)
     * [Data Model](#data-model)
     * [Topics covered in the workshop](#topics-covered-in-the-workshop)
+    * [Feedback](#feedback)
 
 # Advanced Data Transformation in SQL Workshop
 
