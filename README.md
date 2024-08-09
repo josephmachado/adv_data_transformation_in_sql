@@ -71,3 +71,7 @@ Note: Have a copy of the data model as you follow along; this will help in under
 1. [Window functions](./concepts/windows/)
 2. [CTEs](./concepts/CTE/)
 3. [Common query templates for common data processing problems](./concepts/query_templates/)
+
+## Feedback
+
+I'd love to hear any feedback, please send them **[by clicking here](https://jrir55dxz0v.typeform.com/to/FH21xsvY)**.
