@@ -71,6 +71,7 @@ Note: Have a copy of the data model as you follow along; this will help in under
 1. [Window functions](./concepts/windows/)
 2. [CTEs](./concepts/CTE/)
 3. [Common query templates for common data processing problems](./concepts/query_templates/)
+4. [Nested data types](./concepts/nested_data_types/)
 
 ## Feedback
 
