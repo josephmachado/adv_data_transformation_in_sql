@@ -17,7 +17,8 @@ If you like this workshop, you'd love my [Practical Hands on Data Engineering Wo
 
 The workshop will be streamed on YouTube live: [Advanced Data Processing in SQL YouTub Live](https://youtube.com/live/fB4XHC6ZaCs). Post stream, it will be available to watch and follow at your own pace.
 
-YouTube Live 2: **[How to use nested data types effectively in SQL](https://youtube.com/live/pf2myqLDgPg?feature=share)**
+**How to use nested data types in SQL, YouTube Link**
+[![Live workshop](https://img.youtube.com/vi/bfiOLwp1aWM/0.jpg)](https://www.youtube.com/live/pf2myqLDgPg)
 
 ## Prerequisites
 
