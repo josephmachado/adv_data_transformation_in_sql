@@ -1,6 +1,7 @@
 import os
 import duckdb
 import sqlite3
+import argparse
 
 
 def clean_up(file):
@@ -11,9 +12,9 @@ def clean_up(file):
         print(f"The file {file} does not exist.")
 
 
-def create_tpch_data(data_size=0.01):
+def create_tpch_data(db_file_name, data_size=0.01):
     con = duckdb.connect(
-        "tpch.db"
+        db_file_name
     )  # Define a .db file to persist the generated tpch data
     con.sql(
         f"INSTALL tpch;LOAD tpch;CALL dbgen(sf = {data_size});"
@@ -23,7 +24,15 @@ def create_tpch_data(data_size=0.01):
 
 
 if __name__ == "__main__":
-    print("Cleaning up (if any existing) tpch db file")
-    clean_up("tpch.db")
-    print("Creating TPCH input data")
-    create_tpch_data()
+    parser = argparse.ArgumentParser(description="Script to create TPCH input data and clean up the existing DB file.")
+    parser.add_argument('--db_file', type=str, default="tpch.db", help="The TPCH database file to use. Defaults to 'tpch.db'.")
+
+    # Parse the command line arguments
+    args = parser.parse_args()
+    # Get the database file from the parsed arguments
+    db_file = args.db_file
+    
+    print(f"Cleaning up (if any existing) tpch db file {db_file}")
+    clean_up(db_file)
+    print(f"Creating TPCH input data at {db_file}")
+    create_tpch_data(db_file)
