@@ -1,5 +1,6 @@
 duckdb*
 tpch.db
+*.db
 
 .ipynb_checkpoints/
 env/
