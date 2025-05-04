@@ -3,11 +3,12 @@ import duckdb
 import os
 from pathlib import Path
 
-print('Remove existing tpch.db file')
 # Get the current working directory
 cwd = Path(__file__).resolve().parent
+print(f'Remove existing tpch.db file at {cwd}')
 
 db_path = str(cwd / 'tpch.db')
+print(f'Recreate tpch.db file at {db_path}')
 # Remove the file if it exists
 if os.path.exists(db_path):
     os.remove(db_path)
